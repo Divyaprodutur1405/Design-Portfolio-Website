@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 1.7em;
+    cursor: default;
+    color: #d13652;
+}
+
+.navigation a {
+       color: #28b377;
+       font-size: 1.1em;
+       margin-left: 12px;
+       text-decoration: none;
+       padding: 6px 15px;
+       font-weight: 600;
+       border-radius: 20px;
+}  
+
+.navigation a:hover{
+    border-bottom: 2px solid #cf1b6f;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background,jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    color: #c58313;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 0 0 18px rgba(214, 189, 211, 0.8);
+}
+
+h3{
+    font-size: 2em;
+}
+
+h1{
+    font-size: 3.5em;
+    padding-bottom: 30px;
+}
+
+button{
+    font-size: 1.3em;
+    color: #8524a6;
+    font-weight: 600;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 48px;
+    background: transparent;
+    border: 2px solid #7275d5;
+    outline: none;
+    transition: .3s;
+}
+
+button:hover{
+    background: #da3292;
+    color: #e0ccdd;
+}
